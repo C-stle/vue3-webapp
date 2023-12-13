@@ -13,8 +13,8 @@ const routes = [
   },
   {
     path: "/", // [경로]
-    name: "MobileTest", // [이름]
-    component: () => import("@/components/MobileTest.vue"), // [로드 파일]
+    name: "MainPage", // [이름]
+    component: () => import("@/components/MainPage.vue"), // [로드 파일]
   },
 ];
 
